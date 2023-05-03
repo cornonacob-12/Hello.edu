@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Fira+Sans+Extra+Condensed:wght@700&family=Inter:wght@400;500;600;700;800&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "comfortaa", sans-serif;
+  font-weight: 700;
+}
+
+li a {
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+.logo {
+  max-block-size: 4rem;
+  border-radius: 25%;
+  cursor: pointer;
+}
